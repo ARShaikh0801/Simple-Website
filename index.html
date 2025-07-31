@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">MyWebsite</a>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="home" class="page active">
+            <section class="hero">
+                <h1>Welcome to Our Website</h1>
+                <p>Discover amazing features and beautiful design</p>
+                <a href="#" class="btn" onclick="showPage('about')">Learn More</a>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <h3>Modern Design</h3>
+                    <p>Clean and contemporary interface with smooth animations and beautiful gradients.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Responsive Layout</h3>
+                    <p>Perfectly optimized for all devices - desktop, tablet, and mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Fast Performance</h3>
+                    <p>Lightweight code ensuring quick loading times and smooth user experience.</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="about" class="page">
+            <div class="about-content">
+                <h1>About Us</h1>
+                <p>Welcome to our simple yet elegant website. We believe in the power of clean design and straightforward functionality. Our mission is to create beautiful web experiences that are both visually appealing and user-friendly.</p>
+                
+                <p>This website showcases modern web design principles using only HTML and CSS. We've implemented glassmorphism effects, smooth animations, and a responsive layout that works perfectly across all devices.</p>
+                
+                <p>Our team is passionate about web development and design. We strive to create websites that not only look great but also provide an excellent user experience. Thank you for visiting our site!</p>
+                
+                <p>Feel free to explore our features and don't hesitate to reach out if you have any questions or feedback.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            document.getElementById(pageId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
