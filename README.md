@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150/667eea/ffffff?text=SW" alt="Logo" width="100" height="100">
-
+  
   # Simple Website
 
   <p>
