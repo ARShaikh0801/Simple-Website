@@ -19,6 +19,21 @@
   [![Live Demo](https://img.shields.io/badge/See_Live_Demo-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://arshaikh0801.github.io/launched-questions/)
 </div>
 
+---
+
+## Screenshots
+
+# Home Page
+
+![Home Page](<project screenshot/homePage.png>)
+
+
+![About Page](<project screenshot/homePage2.png>)
+
+# About Page
+
+![Contact Page](<project screenshot/aboutPage.png>)
+
 ## 🚀 About The Project
 
 **Simple Website** is a lightweight, high-performance landing page project demonstrating modern web design techniques without relying on bulky frameworks. It features a stunning glassmorphic UI, smooth CSS animations, and a fully responsive layout.
